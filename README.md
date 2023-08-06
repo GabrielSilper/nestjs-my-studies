@@ -24,3 +24,6 @@ _obs.: essa seção vou documentar os passos a passos de funcionalidades do nest
 - criei um service para book;
 - criei um controller para book;
 - adicionei o mongodb seguindo a documentação, criei um docker compose só pra facilitar;
+- aprendi que pra adicionar o mongo precisei usar o módulo do mongoose que Nestjs proporciona;
+- criei os schemas e a model usando o decorator InjectionModel na classe BookService;
+- criei uma rota de POST e GET para books;
