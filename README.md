@@ -20,4 +20,7 @@ _obs.: essa seção vou documentar os passos a passos de funcionalidades do nest
 
 - criei um projeto com a facilidade do CLI do nestjs;
   - eu criei o projeto usando o comando `nest new nestjs-my-studies`;
-- criei um módulo para books;
+- criei um módulo para book;
+- criei um service para book;
+- criei um controller para book;
+- adicionei o mongodb seguindo a documentação, criei um docker compose só pra facilitar;
