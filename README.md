@@ -10,7 +10,7 @@ Gostei bastante de estudar pela documentação e minha cabeça explodiu com as f
 
 ### O que quero fazer:
 
-- Uma API REST simples de livros de uma biblioteca e possivelmente;
+- Uma API REST simples de livros de uma biblioteca;
 - Praticar criar controllers, services e módulos com o auxílio da ferramenta CLI do nestjs;
 - Praticar usar o MongoDB com o ODM Mongoose, para ver como configurar isso na aplicação;
 
@@ -20,3 +20,10 @@ _obs.: essa seção vou documentar os passos a passos de funcionalidades do nest
 
 - criei um projeto com a facilidade do CLI do nestjs;
   - eu criei o projeto usando o comando `nest new nestjs-my-studies`;
+- criei um módulo para book;
+- criei um service para book;
+- criei um controller para book;
+- adicionei o mongodb seguindo a documentação, criei um docker compose só pra facilitar;
+- aprendi que pra adicionar o mongo precisei usar o módulo do mongoose que Nestjs proporciona;
+- criei os schemas e a model usando o decorator InjectionModel na classe BookService;
+- criei uma rota de POST e GET para books;
