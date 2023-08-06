@@ -7,7 +7,10 @@ import { MongooseModule } from '@nestjs/mongoose';
 const API_URI = process.env.DB_URI as string;
 
 @Module({
-  imports: [BookModule, MongooseModule.forRoot(API_URI)],
+  imports: [
+    BookModule,
+    MongooseModule.forRoot(API_URI, { authSource: 'admin' }),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
